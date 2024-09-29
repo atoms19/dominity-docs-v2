@@ -27,7 +27,7 @@ import {
   
 } from "https://esm.sh/dominity@latest";
 
-import { lazy } from "./dominity.js";
+import { $el, lazy } from "./dominity.js";
 let r = new DominityRouter();
 r.onLoad=()=>{
     hljs.highlightAll()
@@ -77,6 +77,8 @@ r.setRoutes({
   
 });
 
+
+let sideBarshow=state(false)
 
 r.start(document.body);
 function docSideNav(pos) {
@@ -375,11 +377,21 @@ function textShowcase() {
   return ref;
 }
 
+
+
 function navbar() {
   return nav(
     div(r.Link({href:'/home'},"dominity.js")),
+div({class:'menu-btn'}).html(`<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>`).on("click",()=>{
 
+ $el('.sidenav').elem.classList.toggle('visible')
+
+ 
+}),  
     div(
+      
       a("github", { href: "#" }),
       a("docs", { href: "#" }),
       a("expamples", { href: "#" }),
