@@ -25,7 +25,7 @@ import {
   strong,
   br,
   
-} from "https://esm.sh/dominity@latest";
+} from "./dominity.js";
 
 import { $el, lazy } from "./dominity.js";
 let r = new DominityRouter();

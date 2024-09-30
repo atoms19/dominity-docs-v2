@@ -6,7 +6,7 @@ import {
     button, 
     strong,
     br,
-  } from "https://esm.sh/dominity@latest";
+  } from "./dominity.js";
   import { codeBlock } from "../dominityDocs.js";
   
 

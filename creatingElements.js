@@ -1,4 +1,4 @@
-import { b, button, div, h1, h3, li, p, span, ul } from "https://esm.sh/dominity@latest";
+import { b, button, div, h1, h3, li, p, span, ul } from "./dominity.js";
 import { codeBlock, note } from "../dominityDocs.js";
 
 

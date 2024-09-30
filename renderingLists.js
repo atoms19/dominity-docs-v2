@@ -1,4 +1,4 @@
-import { div, h1, li,h3, p,state, ul, code, input } from "https://esm.sh/dominity@latest";
+import { div, h1, li,h3, p,state, ul, code, input } from "./dominity.js";
 import { codeBlock, note } from "./dominityDocs.js";
 
 export default function renderingLists(){

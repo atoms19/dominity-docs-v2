@@ -1,4 +1,4 @@
-import { div, h1, p,a, h2, h3, h5 } from "https://esm.sh/dominity@latest";
+import { div, h1, p,a, h2, h3, h5 } from "./dominity.js";
 import { codeBlock } from "../dominityDocs.js";
 
 export default function reactivityStates(){

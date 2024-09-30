@@ -16,7 +16,7 @@ import {
   b,
   ul,
   li,
-} from "https://esm.sh/dominity@latest";
+} from "./dominity.js";
 import { codeBlock } from "../dominityDocs.js";
 
 export default function componentTutorial() {
@@ -218,6 +218,7 @@ function githubCard({ name }) {
     border: "2px solid var(--primary)",
     borderRadius: "4px",
     display: "flex",
+  
   });
 }
 

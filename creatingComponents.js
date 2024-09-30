@@ -1,4 +1,4 @@
-import { code, div, h1, h3, p } from "https://esm.sh/dominity@latest"
+import { code, div, h1, h3, p } from "./dominity.js"
 import { codeBlock, note } from "../dominityDocs.js"
 
 
