@@ -18,7 +18,7 @@ import {
    li,
    input,
    form
-} from "dominity";
+} from "../dominity.min.js";
 import { codeBlock } from "../components/blocks";
 import {
    counter,

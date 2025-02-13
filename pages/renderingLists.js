@@ -1,4 +1,4 @@
-import { div, h1, li,h3, p,state, ul, code, input } from "dominity";
+import { div, h1, li,h3, p,state, ul, code, input } from "../dominity.min.js";
 import { codeBlock, note } from "../components/blocks";
 
 export default function renderingLists(){

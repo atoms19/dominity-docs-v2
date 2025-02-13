@@ -1,4 +1,4 @@
-import { a, b, button, derived, div, effect, h1, img, li, p, span, state, ul } from "dominity";
+import { a, b, button, derived, div, effect, h1, img, li, p, span, state, ul } from "../dominity.min.js";
 
 export function counter() {
     let count = state(0);

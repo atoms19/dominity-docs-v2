@@ -1,4 +1,4 @@
-import { code, div, h3, p, pre } from "dominity";
+import { code, div, h3, p, pre } from "../dominity.manyin.js";
 
 export function codeBlock(coe) {
     return pre({ class: "code" }, code(coe, { class: "code-aside" }));

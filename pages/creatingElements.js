@@ -1,5 +1,5 @@
 import { codeBlock, note } from "../components/blocks.js";
-import { b, button, div, h1, h3, li, p, span, ul } from "dominity";
+import { b, button, div, h1, h3, li, p, span, ul } from "../dominity.min.js";
 
 
 export default function creatingElements() {

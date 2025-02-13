@@ -1,5 +1,5 @@
 import { codeBlock } from "../components/blocks.js";
-import { div, p, h1, h3, button, strong, br } from "dominity";
+import { div, p, h1, h3, button, strong, br } from "../dominity.min.js";
 
 export default function getStarted(r) {
    return div(

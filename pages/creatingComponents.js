@@ -1,4 +1,4 @@
-import { code, div, h1, h3, p } from "dominity"
+import { code, div, h1, h3, p } from "../dominity.min.js"
 import { codeBlock, note } from "../components/blocks.js"
 
 

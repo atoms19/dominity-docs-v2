@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "vite": "^6.0.7"
-  },
-  "dependencies": {
-    "dominity": "^6.3.9"
-  }
-}

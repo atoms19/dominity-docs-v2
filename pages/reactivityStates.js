@@ -1,4 +1,4 @@
-import { div, h1, p, a, h2, h3, h5 } from "dominity";
+import { div, h1, p, a, h2, h3, h5 } from "dominity.min.js";
 import { codeBlock } from "../components/blocks";
 
 export default function reactivityStates() {

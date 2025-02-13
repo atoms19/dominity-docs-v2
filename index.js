@@ -22,12 +22,21 @@ import {
    span,
    DominityRouter,
    aside,
-} from "dominity";
+} from "dominity.min.js";
+
+import svg from './Dominity.svg'
 
 import {codeBlock} from "./components/blocks.js"
 
-import { $el, lazy } from "dominity";
+import { $el } from "dominity.min.js";
 
+
+function lazy(path){
+   return function(router){
+     return import(path).then((s)=>s.default(router))
+   }
+ 
+ }
 
 let r = new DominityRouter();
 r.onLoad = () => {
@@ -116,7 +125,7 @@ function Home() {
          div(
             { class: "title-box " },
 
-            img({ src: "./Dominity.svg", width: 100, height: 150 }),
+            img({ src: svg, width: 100, height: 150 }),
             h1("Dominity js"),
             p("minimalist frontend framework"),
             div(
