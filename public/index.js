@@ -24,7 +24,6 @@ import {
    aside,
 } from "./dominity.min.js";
 
-import svg from './Dominity.svg'
 
 import {codeBlock} from "./components/blocks.js"
 
