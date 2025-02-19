@@ -164,7 +164,6 @@ function todoList() {
    });
 }`),
       todoList()
-
    );
 }
 
@@ -177,7 +176,7 @@ function todoList() {
       button("submit"),
       ul().forEvery(todos, (t) => li(t))
    ).on("submit", (e) => {
-    e.preventDefault()
+      e.preventDefault();
       todos.value = [...todos.value, todoName.value];
       todoName.value = "";
    });
