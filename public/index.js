@@ -22,7 +22,7 @@ import {
    span,
    DominityRouter,
    aside,
-} from "dominity.min.js";
+} from "./dominity.min.js";
 
 import svg from './Dominity.svg'
 
