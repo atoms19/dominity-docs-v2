@@ -28,7 +28,7 @@ import svg from './Dominity.svg'
 
 import {codeBlock} from "./components/blocks.js"
 
-import { $el } from "dominity.min.js";
+import { $el } from "./dominity.min.js";
 
 
 function lazy(path){
